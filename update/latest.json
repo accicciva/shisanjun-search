@@ -1,0 +1,58 @@
+{
+ "version": "1.5.4",
+ "date": "2026-10-17",
+ "summary": "修好窗口在部分笔记本上缩不小、按钮点不到的问题；有新版本时直接提示；浅色更柔和。",
+ "notes": [
+  "修复：在屏幕较小或开了缩放的笔记本上，窗口比屏幕还大，标题栏和右上角的按钮跑到屏幕外面，只能关掉。现在窗口按屏幕大小打开；点任务栏图标也能最小化、还原；最大化时不再盖住任务栏。",
+  "有新版本时直接弹出提示（以前只在左下角提示，容易没注意到）。每次打开程序都会检查一次；GitHub 打不开时，会换别的地址检查。",
+  "浅色主题调暗了一些，看着不再刺眼；修复浅色主题下窗口最外面有一圈黑边的问题。",
+  "任务栏和桌面上的图标换成和程序里一样的样式；开了缩放的屏幕上，任务栏图标也是清楚的。",
+  "1.5.0 以后的任何版本都能直接更新到这一版，不用一版一版地更新；更新后不用重新收录。"
+ ],
+ "page": "https://github.com/accicciva/shisanjun-search/releases/tag/v1.5.4",
+ "program": {
+  "file": "shisanjun-search-1.5.4-update.exe",
+  "url": "https://github.com/accicciva/shisanjun-search/releases/download/v1.5.4/shisanjun-search-1.5.4-update.exe",
+  "size": 167299263,
+  "sha256": "00f0f40a490b35d5b58d64a5ad2a1d185f15ada83340fb3439f204a4d0d33780"
+ },
+ "updateFrom": "1.5.0",
+ "packs": {
+  "gpu": {
+   "version": 1,
+   "size": 2554666715,
+   "parts": [
+    {
+     "name": "shisanjun-search-gpu-pack-v1.zip.001",
+     "size": 1900000000,
+     "sha256": "efc150e7641d64a407d964f23818cb67677004c7130c38276382fbcdd61eda2c",
+     "url": "https://github.com/accicciva/shisanjun-search/releases/download/packs/shisanjun-search-gpu-pack-v1.zip.001"
+    },
+    {
+     "name": "shisanjun-search-gpu-pack-v1.zip.002",
+     "size": 654666715,
+     "sha256": "4a7fc25e0360aa1cfe301d89f9fd7abb54328e413dc575c5a7e37818889129e9",
+     "url": "https://github.com/accicciva/shisanjun-search/releases/download/packs/shisanjun-search-gpu-pack-v1.zip.002"
+    }
+   ]
+  },
+  "ai": {
+   "version": 1,
+   "size": 2801529447,
+   "parts": [
+    {
+     "name": "shisanjun-search-ai-pack-v1.zip.001",
+     "size": 1900000000,
+     "sha256": "02941b1c2fbaa1b4c6c5282672447211fad6ff3edb32d28c046861ca8c96a93c",
+     "url": "https://github.com/accicciva/shisanjun-search/releases/download/packs/shisanjun-search-ai-pack-v1.zip.001"
+    },
+    {
+     "name": "shisanjun-search-ai-pack-v1.zip.002",
+     "size": 901529447,
+     "sha256": "bc12cac0b9cbb2ba70a868dbaccdcc3448994cf8eb5ffb495a72ff6ece79080f",
+     "url": "https://github.com/accicciva/shisanjun-search/releases/download/packs/shisanjun-search-ai-pack-v1.zip.002"
+    }
+   ]
+  }
+ }
+}
